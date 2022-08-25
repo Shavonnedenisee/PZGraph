@@ -1,4 +1,4 @@
-import { LineGraph } from "../../Graph/LineGraph"
+import { Form } from "../../Form/Form"
 
 export const Body = (): JSX.Element => {
      return (
@@ -6,7 +6,7 @@ export const Body = (): JSX.Element => {
                <div>
                     Power Zones Graph:
                </div>
-               <LineGraph />
+               <Form />
           </div>
      )
 }
