@@ -4,7 +4,7 @@ export const Body = (): JSX.Element => {
      return (
           <div>
                <div>
-                    Power Zones:
+                    Power Zones Graph:
                </div>
                <LineGraph />
           </div>
